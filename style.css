@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e7f3fe;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.profile-pic {
+    width: 150px; /* Ukuran lebar gambar */
+    height: auto; /* Tinggi otomatis agar proporsional */
+    border-radius: 50%; /* Membuat gambar bulat */
+    margin-bottom: 10px; /* Jarak di bawah gambar */
+}
+table {
+    width: 100%; /* Memastikan tabel mengambil lebar penuh */
+    border-collapse: collapse; /* Menghapus jarak antara border sel */
+    margin: 20px 0; /* Jarak atas dan bawah tabel */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Border untuk sel */
+    padding: 8px; /* Padding dalam sel */
+    text-align: left; /* Penataan teks di kiri */
+}
+
+th {
+    background-color: #007BFF; /* Warna latar belakang untuk header */
+    color: white; /* Warna teks untuk header */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang untuk baris genap */
+}
+
+tr:hover {
+    background-color: #ddd; /* Warna latar belakang saat hover */
+}
